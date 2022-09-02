@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: rgba(41, 88, 104, 0.7);
+}
+
+nav #navbarSupportedContent ul {
+  font-size: 1.2em;
+}
+
+#carouselFade .carousel-inner img {
+  
+}
+#carouselFade .carousel-inner #first-slide {
+  background-image: url(./images/silde\(1\).jpg);
+  width: 100vh;
+  height: 100vh;
+}
