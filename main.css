@@ -86,7 +86,7 @@ nav #navbarSupportedContent ul {
 }
 
 #benefits .title-benefits p {
-  width: 50%;
+  min-width: 50%;
 }
 
 #benefits .title-benefits .underline {
@@ -110,4 +110,51 @@ nav #navbarSupportedContent ul {
 
 #benefits .row .list h6 {
   font-size: 1.2em;
+}
+
+footer {
+  background-color: #D5EDDC;
+}
+
+footer .socials {
+  min-width: 20%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer .socials a {
+  min-width: 10%;
+}
+
+footer .socials a:hover {
+  background-color: white;
+}
+
+footer p {
+  margin-bottom: 0;
+  font-size: 1.05em;
+}
+
+@media screen and (max-width: 768px) {
+  
+  #about-us .text-section {
+    margin-left: 0;
+    padding: 0;
+  }
+
+  #about-us .image-section .image-about {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 450px) {
+
+  #carouselFade .slider-overlay h2 {
+    font-weight: 400;
+    font-size: 1.7em;
+  }
+
+  #carouselFade .slider-overlay .slider-links a {
+    font-size: 1em;
+  }
 }
