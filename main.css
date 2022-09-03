@@ -84,3 +84,30 @@ nav #navbarSupportedContent ul {
   background-position: bottom center;
   background-repeat: no-repeat;
 }
+
+#benefits .title-benefits p {
+  width: 50%;
+}
+
+#benefits .title-benefits .underline {
+  border-bottom: solid 2px rgb(41, 88, 104);
+  width: 10%;
+  margin: 0.3em 0em 0.5em;
+}
+
+#benefits .row .list {
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#benefits .row .list div:hover {
+  background-color: rgba(41, 88, 104, 0.7);
+  z-index: 10;
+}
+
+#benefits .row .list h6 {
+  font-size: 1.2em;
+}
