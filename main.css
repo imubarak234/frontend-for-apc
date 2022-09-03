@@ -59,3 +59,28 @@ nav #navbarSupportedContent ul {
   color: white;
   border: none;
 }
+
+#about-us .image-section {
+  padding: 0;
+}
+
+#about-us .image-section img {
+  display: none;
+}
+
+#about-us .text-section {
+  background-color: white;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: -100px;
+  padding: 30px 0 30px 50px;
+}
+
+#about-us .image-section .image-about {
+  height: 100%;
+  width: 100%;
+  background-image: url(./images/Nigeria-map.jpg);
+  background-size: cover;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+}
